@@ -22,7 +22,7 @@ function BoardWrite({ addPost }) {
         }
 
         addPost(title, content);
-        navigate("/ilbulgae/home");
+        navigate("/home");
     };
 
     return (
@@ -65,7 +65,7 @@ function BoardWrite({ addPost }) {
                     </button>
                     <button
                         type="button"
-                        onClick={() => navigate("/ilbulgae/home")}
+                        onClick={() => navigate("/home")}
                         style={{ padding: "10px 20px", cursor: "pointer" }}
                     >
                         취소

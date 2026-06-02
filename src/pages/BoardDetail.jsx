@@ -8,7 +8,7 @@ function BoardDetail({ posts }) {
         return (
             <div style={{ padding: "20px", textAlign: "center" }}>
                 <h2>존재하지 않는 게시글입니다.</h2>
-                <Link to="/ilbulgae">
+                <Link to="/home">
                     <button style={{ padding: "10px" }}>목록으로 이동</button>
                 </Link>
             </div>
@@ -28,7 +28,7 @@ function BoardDetail({ posts }) {
             />
 
             <hr />
-            <Link to="/ilbulgae/home">
+            <Link to="/home">
                 <button style={{ padding: "10px", cursor: "pointer" }}>목록으로</button>
             </Link>
         </div>

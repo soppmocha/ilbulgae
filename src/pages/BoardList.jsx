@@ -5,7 +5,7 @@ function BoardList({ posts }) {
         <div>
             <h2>📝 게시글 목록</h2>
             {/* 글쓰기 페이지 이동 경로 수정 */}
-            <Link to="/ilbulgae/write">
+            <Link to="/write">
                 <button style={{ marginBottom: "20px", padding: "10px", cursor: "pointer" }}>
                     글쓰기
                 </button>
@@ -25,7 +25,7 @@ function BoardList({ posts }) {
                         <td style={{ padding: "10px" }}>{post.id}</td>
                         <td style={{ padding: "10px" }}>
                             {/* 상세 페이지 이동 경로 수정 */}
-                            <Link to={`/ilbulgae/post/${post.id}`} style={{ textDecoration: "none", color: "blue" }}>
+                            <Link to={`/post/${post.id}`} style={{ textDecoration: "none", color: "blue" }}>
                                 {post.title}
                             </Link>
                         </td>

@@ -10,4 +10,4 @@ npm run build
 npm run deploy
 
 neuf: 완료   
-https://soppmocha.github.io/ilbulgae/
+https://soppmocha.github.io/ilbulgae/#/home
